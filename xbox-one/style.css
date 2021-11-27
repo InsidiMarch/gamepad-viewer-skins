@@ -1,20 +1,24 @@
 /*Xbox One Controller overrides*/
 .controller.xbox {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/base.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/base.svg);
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/start-select.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/start-select.svg);
+}
+
+.xbox .quadrant {
+    background-image: none !important;
 }
 
 .xbox .button {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
 }
 
 .xbox .stick {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/stick.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/stick.svg);
 }
 
 .xbox .face {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/dpad.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/dpad.svg);
 }
