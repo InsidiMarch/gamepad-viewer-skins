@@ -13,6 +13,7 @@
 
 .xbox .button {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
+    transition: margin-top 100ms ease-in-out;
 }
 
 .xbox .trigger {
