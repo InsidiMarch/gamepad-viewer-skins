@@ -43,6 +43,7 @@
 
 .xbox .face {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/dpad.svg);
+    transition: opacity 40ms ease-in-out;
 }
 
 .xbox .bumper {
