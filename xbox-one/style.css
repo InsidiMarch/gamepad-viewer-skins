@@ -5,6 +5,7 @@
 
 .xbox .back, .xbox .start {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/start-select.svg);
+    transition: opacity 50ms ease-in-out;
 }
 
 .xbox .quadrant {
@@ -13,7 +14,7 @@
 
 .xbox .button {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
-    transition: margin-top 100ms ease-in-out;
+    transition: margin-top 25ms ease-in-out;
 }
 
 .xbox .trigger {
@@ -46,4 +47,5 @@
 
 .xbox .bumper {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/bumper.svg);
+    opacity: opacity 25ms ease-in-out;
 }
