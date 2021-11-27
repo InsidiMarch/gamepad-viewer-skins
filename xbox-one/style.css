@@ -1,0 +1,34 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(xbox-assets/base.svgz);
+}
+
+.xbox .trigger {
+    background: url(xbox-assets/trigger.svgz);
+}
+
+.xbox .bumper {
+    background: url(xbox-assets/bumper.svgz);
+}
+
+.xbox .quadrant {
+    background: url(xbox-assets/quadrant.svgz);
+}
+
+.xbox .back, .xbox .start {
+    background: url(xbox-assets/start-select.svgz);
+}
+
+.xbox .button {
+    background: url(xbox-assets/abxy.svgz);
+}
+
+.xbox .stick {
+    background: url(xbox-assets/stick.svgz);
+}
+
+.xbox .face {
+    background: url(xbox-assets/dpad.svgz);
+}
+
+/*END Xbox One Controller Styling*/
