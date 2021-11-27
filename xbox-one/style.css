@@ -1,34 +1,32 @@
-/*BEGIN Xbox One Controller Styling*/
+/*Xbox One Controller overrides*/
 .controller.xbox {
     background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/base.svg);
 }
 
 .xbox .trigger {
-    background: url(xbox-assets/trigger.svgz);
+    background: url(gtrigger.svgz);
 }
 
 .xbox .bumper {
-    background: url(xbox-assets/bumper.svgz);
+    background: url(gbumper.svgz);
 }
 
 .xbox .quadrant {
-    background: url(xbox-assets/quadrant.svgz);
+    background: url(gquadrant.svgz);
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svgz);
+    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/start-select.svg);
 }
 
 .xbox .button {
-    background: url(xbox-assets/abxy.svgz);
+    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
 }
 
 .xbox .stick {
-    background: url(xbox-assets/stick.svgz);
+    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/stick.svg);
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svgz);
+    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/dpad.svg);
 }
-
-/*END Xbox One Controller Styling*/
