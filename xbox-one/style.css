@@ -42,3 +42,7 @@
 .xbox .face {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/dpad.svg);
 }
+
+.xbox .bumper {
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/bumper.svg);
+}
