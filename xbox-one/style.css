@@ -15,6 +15,10 @@
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
 }
 
+.xbox .trigger {
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/trigger.svg);
+}
+
 .xbox .a {
     left: 59px;
 }
