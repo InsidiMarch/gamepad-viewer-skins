@@ -3,18 +3,6 @@
     background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/base.svg);
 }
 
-.xbox .trigger {
-    background: url(gtrigger.svgz);
-}
-
-.xbox .bumper {
-    background: url(gbumper.svgz);
-}
-
-.xbox .quadrant {
-    background: url(gquadrant.svgz);
-}
-
 .xbox .back, .xbox .start {
     background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/start-select.svg);
 }
