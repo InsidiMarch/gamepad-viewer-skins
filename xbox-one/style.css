@@ -15,6 +15,22 @@
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/abxy.svg);
 }
 
+.xbox .a {
+    left: 59px;
+}
+
+.xbox .b {
+    right: -4px;
+}
+
+.xbox .x {
+    left: 7px;
+}
+
+.xbox .y {
+    left: 58px;
+}
+
 .xbox .stick {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/xbox-one/graphics/stick.svg);
 }
