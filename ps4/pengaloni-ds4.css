@@ -1,41 +1,41 @@
-/*PS4 Controller overrides*/
 .controller.ds4 {
-    background-image: url(./graphics/base.svg);
+  background-image: url("./graphics/base.svg");
 }
 
 .ds4 .trigger {
-    background-image: url(./graphics/triggers.svg);
+  background-image: url("./graphics/triggers.svg");
 }
 
 .ds4 .bumper {
-    background-image: url(./graphics/bumper.svg);
+  background-image: url("./graphics/bumper.svg");
 }
 
-.ds4 .back, .ds4 .start {
-    background-image: url(./graphics/start.svg);
+.ds4 .back,
+.ds4 .start {
+  background-image: url("./graphics/start.svg");
 }
 
 .ds4 .button {
-    background-image: url(./graphics/face.svg);
+  background-image: url("./graphics/face.svg");
 }
 
 .ds4 .stick {
-    background-image: url(./graphics/sticks.svg);
+  background-image: url("./graphics/sticks.svg");
 }
 
 .ds4 .face {
-    background-image: url(./graphics/dpad.svg);
+  background-image: url("./graphics/dpad.svg");
 }
 
 .ds4 .meta {
-    width: 48px;
-    height: 47px;
-    position: absolute;
-    left: 50%;
-    bottom: 231px;
-    transform: translateX(-50%);
+  width: 48px;
+  height: 47px;
+  position: absolute;
+  left: 50%;
+  bottom: 231px;
+  transform: translateX(-50%);
 }
 
 .ds4 .meta.pressed {
-    background-image: url(./graphics/meta.svg);
+  background-image: url("./graphics/meta.svg");
 }

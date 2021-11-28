@@ -16,6 +16,13 @@
 			"problemMatcher": [],
 			"label": "npm: build:ps4",
 			"detail": "postcss ./ps4/pengaloni-ds4.css > ./build/pengaloni-ds4.min.css"
+		},
+		{
+			"type": "npm",
+			"script": "lint:css",
+			"problemMatcher": [],
+			"label": "npm: lint:css",
+			"detail": "stylelint **/*.css"
 		}
 	]
 }

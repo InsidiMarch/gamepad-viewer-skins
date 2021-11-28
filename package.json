@@ -22,6 +22,12 @@
   },
   "scripts": {
     "build:xbone": "postcss ./xbox-one/pengaloni-xbone.css > ./build/pengaloni-xbone.min.css",
-    "build:ps4": "postcss ./ps4/pengaloni-ds4.css > ./build/pengaloni-ds4.min.css"
+    "build:ps4": "postcss ./ps4/pengaloni-ds4.css > ./build/pengaloni-ds4.min.css",
+    "lint:css": "stylelint **/*.css",
+    "lint:css:fix": "stylelint **/*.css --fix"
+  },
+  "devDependencies": {
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
   }
 }
