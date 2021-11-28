@@ -1,0 +1,63 @@
+.controller {
+  --back-start-transition-time: 50ms;
+  --dpad-transition-time: 40ms;
+  --abxy-bumper-transition-time: 25ms;
+  --button-a-left: 59px;
+  --button-b-left: -4px;
+  --button-x-left: 7px;
+  --button-y-left: 58px;
+
+  &.xbox {
+    background-image: url("./graphics/base.svg");
+
+    .button {
+      background-image: url("./graphics/abxy.svg");
+      transition: margin-top var(--abxy-bumper-transition-time) ease-in-out;
+
+      &.a {
+        left: var(--button-a-left);
+      }
+
+      &.b {
+        right: var(--button-b-left);
+      }
+
+      &.x {
+        left: var(--button-x-left);
+      }
+
+      &.y {
+        left: var(--button-y-left);
+      }
+    }
+
+    .back,
+    .start {
+      background-image: url("./graphics/start-select.svg");
+      transition: opacity var(--back-start-transition-time) ease-in-out;
+    }
+
+    .quadrant {
+      background-image: none !important;
+    }
+
+    .trigger {
+      background-image: url("./graphics/trigger.svg");
+    }
+
+    .face {
+      background-image: url("./graphics/dpad.svg");
+      transition: opacity var(--dpad-transition-time) ease-in-out;
+    }
+  }
+}
+
+/* If these rules are inside of .controller.xbox they render incorrectly. */
+.stick {
+  background-image: url("./graphics/stick.svg");
+}
+
+.bumper {
+  background-image: url("./graphics/bumper.svg");
+  opacity: opacity var(--abxy-bumper-transition-time) ease-in-out;
+}

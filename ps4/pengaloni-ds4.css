@@ -1,0 +1,47 @@
+.controller {
+  &.ds4 {
+    background-image: url("./graphics/base.svg");
+
+    .trigger {
+      background-image: url("./graphics/triggers.svg");
+    }
+
+    .bumper {
+      background-image: url("./graphics/bumper.svg");
+    }
+
+    .back,
+    .start {
+      background-image: url("./graphics/start.svg");
+    }
+
+    .button {
+      background-image: url("./graphics/face.svg");
+    }
+
+    .stick {
+      background-image: url("./graphics/sticks.svg");
+    }
+
+    .face {
+      background-image: url("./graphics/dpad.svg");
+    }
+
+    .meta {
+      --size-width: 48px;
+      --size-height: 47px;
+      --offset-bottom: 231px;
+
+      width: var(--size-width);
+      height: var(--size-height);
+      position: absolute;
+      left: 50%;
+      bottom: var(--offset-bottom);
+      transform: translateX(-50%);
+
+      &.pressed {
+        background-image: url("./graphics/meta.svg");
+      }
+    }
+  }
+}
