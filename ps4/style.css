@@ -1,28 +1,28 @@
 /*PS4 Controller overrides*/
 .controller.ds4 {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/base.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/base.svg);
 }
 
 .ds4 .trigger {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/triggers.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/triggers.svg);
 }
 
 .ds4 .bumper {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/bumper.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/bumper.svg);
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/start.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/start.svg);
 }
 
 .ds4 .button {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/face.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/face.svg);
 }
 
 .ds4 .stick {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/sticks.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/sticks.svg);
 }
 
 .ds4 .face {
-    background: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/dpad.svg);
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/dpad.svg);
 }
