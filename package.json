@@ -22,7 +22,9 @@
   "scripts": {
     "build:xbone": "postcss ./xbox-one/pengaloni-xbone.css > ./build/pengaloni-xbone.min.css",
     "build:ps4": "postcss ./ps4/pengaloni-ds4.css > ./build/pengaloni-ds4.min.css",
-    "lint:css": "stylelint **/*.css"
+    "build:snes": "postcss ./snes/pengaloni-snes.css > ./build/pengaloni-snes.min.css",
+    "lint:css": "stylelint **/*.css",
+    "lint:css:fix": "stylelint **/*.css --fix"
   },
   "devDependencies": {
     "postcss": "^8.4.4",

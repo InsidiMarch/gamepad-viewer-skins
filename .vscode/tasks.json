@@ -23,6 +23,14 @@
 			"problemMatcher": [],
 			"label": "npm: lint:css",
 			"detail": "stylelint **/*.css"
+		},
+		{
+			"type": "npm",
+			"script": "build:snes",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build:snes",
+			"detail": "postcss ./snes/pengaloni-snes.css > ./build/pengaloni-snes.min.css"
 		}
 	]
 }
