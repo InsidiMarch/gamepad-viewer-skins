@@ -27,6 +27,7 @@ jobs:
         run: |
           npm run build:xbone
           npm run build:ps4
+          npm run build:snes
 
       - name: Install lftp
         run: |
