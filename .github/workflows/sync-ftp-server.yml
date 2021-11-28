@@ -34,10 +34,14 @@ jobs:
           sudo apt upgrade -y
           sudo apt install -y lftp
 
-      - name: Upload CSS file to FTP server
+      - name: Upload PS4 CSS file to FTP server
         run: |
           lftp -c 'set ssl:check-hostname no; open ${{ secrets.FTP_HOSTNAME }}; user ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}; put -O / ./build/pengaloni-ds4.min.css; quit'
 
       - name: Upload Xbone CSS file to FTP server
         run: |
           lftp -c 'set ssl:check-hostname no; open ${{ secrets.FTP_HOSTNAME }}; user ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}; put -O / ./build/pengaloni-xbone.min.css; quit'
+
+      - name: Upload SNES CSS file to FTP server
+        run: |
+          lftp -c 'set ssl:check-hostname no; open ${{ secrets.FTP_HOSTNAME }}; user ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}; put -O / ./build/pengaloni-snes.min.css; quit'

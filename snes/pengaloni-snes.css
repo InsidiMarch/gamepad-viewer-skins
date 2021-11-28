@@ -2,12 +2,12 @@
 
 :root {
   --buttons-transition-time: 50ms;
-  --buttons-pressed-color: #D9D5DA;
+  --buttons-pressed-color: #d9d5da;
 }
 
 /* This class defines the base attributes of the skin */
 .controller.xbox {
-  background: url(./graphics/snes.svg);
+  background: url("./graphics/snes.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   width: 970px;
@@ -17,7 +17,7 @@
 }
 
 .xbox.disconnected {
-  background: url(./graphics/snes.svg);
+  background: url("./graphics/snes.svg");
   background-position: 0 -424px;
   background-repeat: no-repeat;
 }
@@ -28,16 +28,13 @@
 }
 
 .xbox .triggers { /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-  width: 759px;
-  height: 34px;
-  position: absolute;
-  left: 104px;
+  display: none !important;
 }
 
 .xbox .trigger {/* These are the actual triggers themselves */
   width: 211px;
   height: 34px;
-  background: url(./graphics/snes.svg);
+  background: url("./graphics/snes.svg");
   background-position: -967px 0;
   background-repeat: no-repeat;
   opacity: 0;
@@ -97,7 +94,7 @@ start and select buttons. */
 
 .xbox .back.pressed,
 .xbox .start.pressed {
-  background: url(./graphics/snes.svg);
+  background: url("./graphics/snes.svg");
   background-position: -1177.2px 0;
   opacity: 1;
 }
@@ -135,10 +132,6 @@ start and select buttons. */
 .xbox .button.pressed {
   background-position-y: 0;
   opacity: 1;
-}
-
-.xbox .triggers {
-  display: none !important;
 }
 
 .xbox .a {
@@ -179,7 +172,7 @@ the CSS inline. */
 }
 
 .xbox .bumper {
-  background-image: url(./graphics/snes.svg);
+  background-image: url("./graphics/snes.svg");
   width: 212px;
   transition: opacity var(--buttons-transition-time) ease-in-out;
 }
@@ -238,7 +231,6 @@ the CSS inline. */
   left: 0;
   background-position: 0 0;
   transform: rotate(-90deg);
-  transform: rotate(-90deg);
 }
 
 .xbox .face.right {
@@ -249,7 +241,7 @@ the CSS inline. */
 }
 
 .xbox .face.pressed {
-  background: url(./graphics/snes.svg);
+  background: url("./graphics/snes.svg");
   background-position-x: -1323px;
   opacity: 1;
 }
