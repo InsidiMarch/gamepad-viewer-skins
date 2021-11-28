@@ -13,4 +13,4 @@ Note that you cannot use the "Raw file" link directly in Gamepad Viewer app or o
 
 ## Todos
 - [ ] Add Github Action to deploy the latest CSS version directly to a FTP server to streamline the updating version.
-- [ ] Add SVG files directly inside the CSS files as base64 to reduce the number of external calls.
+- [x] Add SVG files directly inside the CSS files as base64 to reduce the number of external calls.

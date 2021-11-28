@@ -1,0 +1,53 @@
+/*Xbox One Controller overrides*/
+
+.controller.xbox {
+    background-image: url(./graphics/base.svg);
+}
+
+.xbox .back, .xbox .start {
+    background-image: url(./graphics/start-select.svg);
+    transition: opacity 50ms ease-in-out;
+}
+
+.xbox .quadrant {
+    background-image: none !important;
+}
+
+.xbox .button {
+    background-image: url(./graphics/abxy.svg);
+    transition: margin-top 25ms ease-in-out;
+}
+
+.xbox .trigger {
+    background-image: url(./graphics/trigger.svg);
+}
+
+.xbox .a {
+    left: 59px;
+}
+
+.xbox .b {
+    right: -4px;
+}
+
+.xbox .x {
+    left: 7px;
+}
+
+.xbox .y {
+    left: 58px;
+}
+
+.xbox .stick {
+    background-image: url(./graphics/stick.svg);
+}
+
+.xbox .face {
+    background-image: url(./graphics/dpad.svg);
+    transition: opacity 40ms ease-in-out;
+}
+
+.xbox .bumper {
+    background-image: url(./graphics/bumper.svg);
+    opacity: opacity 25ms ease-in-out;
+}

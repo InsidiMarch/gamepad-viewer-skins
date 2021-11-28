@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build:xbone",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build:xbone",
+			"detail": "postcss ./xbox-one/pengaloni-xbone.css > ./build/pengaloni-xbone.min.css"
+		},
+		{
+			"type": "npm",
+			"script": "build:ps4",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build:ps4",
+			"detail": "postcss ./ps4/pengaloni-ds4.css > ./build/pengaloni-ds4.min.css"
+		}
+	]
+}

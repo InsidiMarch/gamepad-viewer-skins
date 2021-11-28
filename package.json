@@ -1,0 +1,27 @@
+{
+  "name": "gamepad-viewer-skins",
+  "version": "1.0.0",
+  "description": "A collection of skins I use to show controller inputs on my OBS overlay. These skins provide CSS overrides for [Gamepad Viewer](https://gamepadviewer.com/).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pengaloni/gamepad-viewer-skins.git"
+  },
+  "keywords": [],
+  "author": "Pengaloni",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/Pengaloni/gamepad-viewer-skins/issues"
+  },
+  "homepage": "https://github.com/Pengaloni/gamepad-viewer-skins#readme",
+  "dependencies": {
+    "cssnano": "^5.0.12",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-preset-env": "^7.0.1",
+    "postcss-svg": "^3.0.0"
+  },
+  "scripts": {
+    "build:xbone": "postcss ./xbox-one/pengaloni-xbone.css > ./build/pengaloni-xbone.min.css",
+    "build:ps4": "postcss ./ps4/pengaloni-ds4.css > ./build/pengaloni-ds4.min.css"
+  }
+}
