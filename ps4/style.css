@@ -26,3 +26,7 @@
 .ds4 .face {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/dpad.svg);
 }
+
+.ds4 .meta.pressed {
+    background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/meta.svg);
+}
