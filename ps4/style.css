@@ -27,6 +27,15 @@
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/dpad.svg);
 }
 
+.ds4 .meta {
+    width: 48px;
+    height: 47px;
+    position: absolute;
+    left: 50%;
+    bottom: 231px;
+    transform: translateX(-50%);
+}
+
 .ds4 .meta.pressed {
     background-image: url(https://raw.githubusercontent.com/Pengaloni/gamepad-viewer-skins/main/ps4/graphics/meta.svg);
 }
